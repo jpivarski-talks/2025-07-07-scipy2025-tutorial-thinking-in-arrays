@@ -5,6 +5,13 @@ TODO. See the [2023 repo](https://github.com/jpivarski-talks/2023-07-11-scipy202
 * https://cfp.scipy.org/scipy2025/talk/MP7C33/
 * 07-07, 08:00–12:00 (US/Pacific), Room 315
 
+## Local installation (`pixi`)
+
+```shell
+pixi init --import=environment.yml
+pixi shell
+```
+
 ## Outline
 
 * 0:00‒0:15 (15 min) Lecture 1: Array-oriented programming and its benefits. Simple and complex (3 body problem) examples of imperative, functional, and array-oriented styles. Speed and memory advantages in Python. What the array-oriented paradigm emphasizes/is good for: interactive analyses of distributions. Path length as a worked example.
