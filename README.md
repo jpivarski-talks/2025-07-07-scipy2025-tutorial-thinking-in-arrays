@@ -24,9 +24,17 @@ We will present from `lecture.ipynb`, but `lecture-workbook.ipynb` is your scrat
 
 ## Alternative: run the notebooks on your computer with `pixi`
 
-First, you need to [install pixi](https://pixi.sh/latest/installation/).
+First, clone this repository.
 
-Then you can install the environment and start a local jupyterlab session with the following single command:
+```shell
+git clone https://github.com/jpivarski-talks/2025-07-07-scipy2025-tutorial-thinking-in-arrays.git
+cd 2025-07-07-scipy2025-tutorial-thinking-in-arrays
+```
+
+Make sure you've [installed pixi](https://pixi.sh/latest/installation/) on your computer.
+
+Then you can install the environment and start a local JupyterLab session with:
+
 ```shell
 pixi run start
 ```
