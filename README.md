@@ -5,11 +5,13 @@ TODO. See the [2023 repo](https://github.com/jpivarski-talks/2023-07-11-scipy202
 * https://cfp.scipy.org/scipy2025/talk/MP7C33/
 * 07-07, 08:00–12:00 (US/Pacific), Room 315
 
-## Local installation (`pixi`)
+## Run the notebooks locally with `pixi`
 
+First, you need to [install pixi](https://pixi.sh/latest/installation/).
+
+Then you can install the environment and start a local jupyterlab session with the following single command:
 ```shell
-pixi init --import=environment.yml
-pixi shell
+pixi run start
 ```
 
 ## Outline
