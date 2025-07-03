@@ -20,6 +20,8 @@ Then select the `thinking-in-arrays` kernel when your notebook opens:
 
 We will present from `lecture.ipynb`, but `lecture-workbook.ipynb` is your scratchpad for exercises before the `project.ipynb`. Don't look at `solutions.ipynb` until after you've attempted the project!
 
+See [the SciPy Nebari Google Doc](https://docs.google.com/document/d/19LmkiwoRu_JOHxHPbf1wMXGIU9pspQbqUqj-icny3JE/edit?usp=sharing) for more details.
+
 ## Alternative: run the notebooks on your computer with `pixi`
 
 First, you need to [install pixi](https://pixi.sh/latest/installation/).
