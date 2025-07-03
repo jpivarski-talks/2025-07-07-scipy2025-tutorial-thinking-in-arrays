@@ -8,11 +8,11 @@ This repository contains everything you need to follow the "[Thinking in arrays]
 
 Attendees of the SciPy conference should all have access to Quansight's Nebari at [https://scipy.quansight.dev](https://scipy.quansight.dev). Log in (and allow several minutes for your instance to launch) and select the "Thinking in Arrays" tutorial from the grid of choices:
 
-<img src="img/nebari-panel.png" style="width: 655px; max-width: 100%;">
+<img src="img/nebari-panel.png" style="width: 328px; max-width: 100%;">
 
 Then navigate to `tutorials/2025-07-07-scipy2025-tutorial-thinking-in-arrays/part-1/lecture-workbook.ipynb`:
 
-<img src="nebari-first-notebook.png" style="width: 353px; max-width: 100%;">
+<img src="img/nebari-first-notebook.png" style="width: 353px; max-width: 100%;">
 
 Then select the `thinking-in-arrays` kernel when your notebook opens:
 
