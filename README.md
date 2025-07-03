@@ -1,11 +1,26 @@
 # SciPy 2025 tutorial: Thinking in arrays
 
-TODO. See the [2023 repo](https://github.com/jpivarski-talks/2023-07-11-scipy2023-tutorial-thinking-in-arrays) for guidance.
+This repository contains everything you need to follow the "[Thinking in arrays](https://cfp.scipy.org/scipy2025/talk/MP7C33/)" tutorial, presented at the [SciPy 2025](https://www.scipy2025.scipy.org/) conference on [Monday, July 7 at 8:00am‒12:00pm PDT](https://www.scipy2025.scipy.org/schedule) in Room 315.
 
-* https://cfp.scipy.org/scipy2025/talk/MP7C33/
-* 07-07, 08:00–12:00 (US/Pacific), Room 315
+<img src="img/conference-room-315.png" style="width: 300px; max-width: 100%;">
 
-## Run the notebooks locally with `pixi`
+## Recommended: run the notebooks on Nebari
+
+Attendees of the SciPy conference should all have access to Quansight's Nebari at [https://scipy.quansight.dev](https://scipy.quansight.dev). Log in (and allow several minutes for your instance to launch) and select the "Thinking in Arrays" tutorial from the grid of choices:
+
+<img src="img/nebari-panel.png" style="width: 655px; max-width: 100%;">
+
+Then navigate to `tutorials/2025-07-07-scipy2025-tutorial-thinking-in-arrays/part-1/lecture-workbook.ipynb`:
+
+<img src="nebari-first-notebook.png" style="width: 353px; max-width: 100%;">
+
+Then select the `thinking-in-arrays` kernel when your notebook opens:
+
+<img src="img/nebari-select-kernel.png" style="width: 653px; max-width: 100%;">
+
+We will present from `lecture.ipynb`, but `lecture-workbook.ipynb` is your scratchpad for exercises before the `project.ipynb`. Don't look at `solutions.ipynb` until after you've attempted the project!
+
+## Alternative: run the notebooks on your computer with `pixi`
 
 First, you need to [install pixi](https://pixi.sh/latest/installation/).
 
