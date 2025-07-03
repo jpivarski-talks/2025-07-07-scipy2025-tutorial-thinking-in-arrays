@@ -6,6 +6,8 @@ This repository contains everything you need to follow the "[Thinking in arrays]
 
 ## Recommended: run the notebooks on Nebari
 
+(See [the SciPy Nebari Google Doc](https://docs.google.com/document/d/19LmkiwoRu_JOHxHPbf1wMXGIU9pspQbqUqj-icny3JE/edit?usp=sharing) for general instructions.)
+
 Attendees of the SciPy conference should all have access to Quansight's Nebari at [https://scipy.quansight.dev](https://scipy.quansight.dev). Log in (and allow several minutes for your instance to launch) and select the "Thinking in Arrays" tutorial from the grid of choices:
 
 <img src="img/nebari-panel.png" style="width: 328px; max-width: 100%;">
@@ -19,8 +21,6 @@ Then select the `thinking-in-arrays` kernel when your notebook opens:
 <img src="img/nebari-select-kernel.png" style="width: 653px; max-width: 100%;">
 
 We will present from `lecture.ipynb`, but `lecture-workbook.ipynb` is your scratchpad for exercises before the `project.ipynb`. Don't look at `solutions.ipynb` until after you've attempted the project!
-
-See [the SciPy Nebari Google Doc](https://docs.google.com/document/d/19LmkiwoRu_JOHxHPbf1wMXGIU9pspQbqUqj-icny3JE/edit?usp=sharing) for more details.
 
 ## Alternative: run the notebooks on your computer with `pixi`
 
