@@ -2,31 +2,30 @@
 authors = ["jpivarski <jpivarski@gmail.com>", "pfackeldey <fackeldey.peter@gmail.com>"]
 channels = ["conda-forge"]
 name = "2025-07-07-scipy2025-tutorial-thinking-in-arrays"
-platforms = ["osx-arm64", "linux-64", "win-64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks.start]
 cmd = "jupyter lab"
 
-[dependencies]
-aiohttp = "*"
-awkward = "*"
-fsspec = "*"
-hist = "*"
-jupyterlab = "*"
-jupyterlab-deck = "*"
-jupyterlab-mathjax3 = "*"
-matplotlib = "*"
-mplhep = "*"
-numba = "*"
-numexpr = "*"
-numpy = "*"
-pandas = "*"
-pyarrow = "*"
-python = "*"
-requests = "*"
-scikit-learn = "*"
-scipy = "*"
-
-[pypi-dependencies]
-jax = "*"
+[dependencies] # the following is a copy of `enviroment.yml`
+aiohttp = "==3.12.13"
+awkward = "==2.6.8"
+fsspec = "==2025.5.1"
+hist = "==2.8.1"
+jax = "==0.6.0"
+jaxlib = "==0.6.0"
+jupyterlab = "==4.4.4"  # but running inside 4.2.5?
+jupyterlab-deck = "==0.2.0"
+jupyterlab-mathjax3 = "==4.3.0"
+matplotlib = "==3.10.3"
+mplhep = "==0.3.59"
+numba = "==0.61.2"
+numexpr = "==2.10.2"
+numpy = "==2.2.6"
+pandas = "==2.3.0"
+pyarrow = "==20.0.0"
+python = "==3.13.5"
+requests = "==2.32.4"
+scikit-learn = "==1.7.0"
+scipy = "==1.16.0"
